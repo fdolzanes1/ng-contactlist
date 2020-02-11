@@ -4,7 +4,6 @@ var mongodb = require("mongodb");
 var ObjectID = mongodb.ObjectID;
 
 var CONTACTS_COLLECTION = "contacts";
-var MONGODB_URI = 'mongodb://heroku_rg0nhcvk:n8brs84bu7fsg1av6efqvlpfbm@ds119442.mlab.com:19442/heroku_rg0nhcvk';
 var app = express();
 app.use(bodyParser.json());
 
